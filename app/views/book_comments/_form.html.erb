@@ -1,0 +1,4 @@
+<%= form_with model: [book, book_comment] do |f| %>
+  <%= f.text_area :comment, rows:'5', placeholder: "Please here the comment", class: "w-100" %>
+  <%= f.submit "create_message" %>
+<% end 
